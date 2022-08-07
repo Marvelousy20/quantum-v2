@@ -63,14 +63,14 @@ export default function About() {
 
       <section className="">
         <h3
-          className="font-ce text-3xl md:text-6xl mb-6 about text-left"
+          className="font-ibm font-bold text-3xl md:text-6xl mb-6 about text-left"
           ref={(el) => (aboutRef = el)}
         >
           ABOUT US
         </h3>
 
         <p
-          className="text-regular font-regular leading-8 text-left"
+          className="text-regular font-ibm font-regular leading-8 text-left"
           ref={(el) => (contentRef = el)}
         >
           hey, this is Quantum stheskdj dsjdj hey, this is Quantum stheskdj

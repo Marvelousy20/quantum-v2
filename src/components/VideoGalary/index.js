@@ -142,8 +142,8 @@ export default function VideoGallery() {
       },
       // rotate: 45,
       width: 0,
-      duration: 1.4,
-      delay: 1,
+      duration: 1,
+      delay: .5,
       ease: Power3.easeOut
     });
   }, []);

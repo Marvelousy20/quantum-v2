@@ -69,14 +69,14 @@ export default function QuantumSoul() {
     >
       <div>
         <p
-          className="font-ce text-3xl md:text-6xl mb-6 text-left"
+          className="font-ibm font-bold text-3xl md:text-6xl mb-6 text-left"
           ref={(el) => (titleRef = el)}
         >
           Quantum Souls
         </p>
 
         <p
-          className="font-regular leading-8 text-left"
+          className="font-ibm font-medium leading-8 text-left"
           ref={(el) => (textRef = el)}
         >
           Quantum Souls is a generative collection on geometrical nodes containg

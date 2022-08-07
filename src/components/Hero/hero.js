@@ -22,7 +22,7 @@ export default function Hero() {
           <a href="https://discord.gg/gnvjQy4p">
             <SiDiscord size={24} color = "fff" />
           </a>
-          <button className="bg-blue-500 px-4 py-2 md:px-6 md:py-3 text-white text-base md:text-lg">
+          <button className="bg-blue-500 font-ibm font-semibold px-4 py-2 md:px-6 md:py-3 text-white text-base md:text-lg">
             Connect Wallet
           </button>
         </div>
