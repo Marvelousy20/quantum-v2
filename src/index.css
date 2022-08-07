@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Altone-Bold";
+  font-display: swap;
+  src: url("./fonts/Altone-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Altone-ExtraBold";
+  font-display: swap;
+  src: url("./fonts/Altone-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Altone-Regular";
+  font-display: swap;
+  src: url("./fonts/Altone-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Altone-SemiBold";
+  font-display: swap;
+  src: url("./fonts/Altone-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "CoffeeExtra";
+  font-display: swap;
+  src: url("./fonts/CoffeeExtra.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
