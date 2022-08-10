@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import { gsap, Power3 } from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import Canva from "../../asset/canva.mp4"
+import Canva from "../../asset/canva.mp4";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -42,10 +42,10 @@ export default function QuantumSoul() {
       scrollTrigger: {
         trigger: contentRef,
         toggleActions: "restart none none reset",
-        end: "bottom 20%",
+        end: "bottom 5%",
       },
-      backgroundColor: "#151414",
-      color: "white",
+      backgroundColor: "#F5F5F4",
+      color: "black",
       delay: 3,
       duration: 1,
       ease: Power3.easeOut,
@@ -66,31 +66,33 @@ export default function QuantumSoul() {
   return (
     <section
       ref={(el) => (contentRef = el)}
-      className="grid overflow-hidden grid-cols-1 gap-y-6 md:grid-cols-2 py-8 px-4 md:px-16 md:py-32 lg:px-40 gap-x-32 items-center bg-[#F5F5F4]"
+      className="grid overflow-hidden grid-cols-1 gap-y-6 md:grid-cols-3 py-8 px-4 md:px-16 md:py-32 lg:px-24 gap-x-16 items-center text-white bg-[#151414]"
     >
-      <div>
+      <div className="col-span-1">
         <p
-          className="font-ibm font-bold text-3xl md:text-6xl mb-6 text-left"
+          className="font-ibm font-bold text-3xl md:text-5xl mb-6 text-start"
           ref={(el) => (titleRef = el)}
         >
           Quantum Souls
         </p>
 
         <p
-          className="font-ibm font-medium leading-8 text-left"
+          className="font-ibm font-medium leading-8 text-start max-w-[400px]"
           ref={(el) => (textRef = el)}
         >
-          QGNSS is my attempt to recreate Nature, a nature from a different
-          timeline, playing with matter and its evolution path. Like you, each
-          one is unique. Generated from the nil, they come to life as singular
-          beings, made from a fusion of advanced technology and art. This is the
-          result of my obsession with the alliance of beauty and machines, an
-          aesthetic I have been developing for over 4 years. So far, I've
-          created this alone, but now I invite you to play god.
+          Quantum Souls is a generative collection on geometrical nodes containg
+          5550 pieces of digital animated souls stored on Ethereum Blockchain of
+          where each soul is unique and exclusive The goal is to generate
+          singular souls which instigate the imagination of the one who observes
+          them. Each person will have a different perception of each piece,
+          bringing up the imagination in its purest form. Using your own
+          perspectives and experiences, the beauty is to discover them and get
+          lost in ideas and thoughts, watching the countless possibilities of
+          what each one can mean to you.  
         </p>
       </div>
 
-      <div className="" ref={(el) => (videoRef = el)}>
+      <div className="col-span-2" ref={(el) => (videoRef = el)}>
         <video
           src="https://res.cloudinary.com/dllbqpsrp/video/upload/v1659350983/Untitled_design_kfshga.mp4"
           // src={Canva}
@@ -98,7 +100,7 @@ export default function QuantumSoul() {
           muted
           autoPlay
           playsInline
-          className=" h-full md:h-[650px] object-cover"
+          className=" h-full md:h-[700px] object-cover"
           width="100%"
         ></video>
       </div>
