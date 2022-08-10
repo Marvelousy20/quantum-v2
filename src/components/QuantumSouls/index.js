@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import { gsap, Power3 } from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import Canva from "../../asset/canva.mp4"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -79,25 +80,26 @@ export default function QuantumSoul() {
           className="font-ibm font-medium leading-8 text-left"
           ref={(el) => (textRef = el)}
         >
-          Quantum Souls is a generative collection on geometrical nodes containg
-          5550 pieces of digital animated souls stored on Ethereum Blockchain of
-          where each soul is unique and exclusive The goal is to generate
-          singular souls which instigate the imagination of the one who observes
-          them. Each person will have a different perception of each piece,
-          bringing up the imagination in its purest form. Using your own
-          perspectives and experiences, the beauty is to discover them and get
-          lost in ideas and thoughts, watching the countless possibilities of
-          what each one can mean to you
+          QGNSS is my attempt to recreate Nature, a nature from a different
+          timeline, playing with matter and its evolution path. Like you, each
+          one is unique. Generated from the nil, they come to life as singular
+          beings, made from a fusion of advanced technology and art. This is the
+          result of my obsession with the alliance of beauty and machines, an
+          aesthetic I have been developing for over 4 years. So far, I've
+          created this alone, but now I invite you to play god.
         </p>
       </div>
 
       <div className="" ref={(el) => (videoRef = el)}>
         <video
           src="https://res.cloudinary.com/dllbqpsrp/video/upload/v1659350983/Untitled_design_kfshga.mp4"
+          // src={Canva}
           loop
           muted
           autoPlay
           playsInline
+          className=" h-full md:h-[650px] object-cover"
+          width="100%"
         ></video>
       </div>
     </section>

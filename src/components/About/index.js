@@ -73,18 +73,12 @@ export default function About() {
           className="text-regular font-ibm font-regular leading-8 text-left"
           ref={(el) => (contentRef = el)}
         >
-          hey, this is Quantum stheskdj dsjdj hey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
-          dsjdjhey, this is Quantum stheskdj dsjdjhey, this is Quantum stheskdj
+          Fernando Magalhães, aka MGXS, is a generative artist working with
+          procedural and generative systems. His mind is pretty active and
+          always seeking forms and shapes that inspire his imagination,
+          desiccate and decode them in his Mad Scientist Laboratory. Gnss is the
+          result of many years of research and development coming to a
+          conclusion and MGXS invites you to end this chapter together.
         </p>
       </section>
     </div>

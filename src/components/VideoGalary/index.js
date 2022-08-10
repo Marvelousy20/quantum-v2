@@ -146,6 +146,26 @@ export default function VideoGallery() {
       delay: .5,
       ease: Power3.easeOut
     });
+    
+    // gsap.to(videoRef, {
+    //   scrollTrigger: {
+    //     trigger: videoRef,
+    //     toggleActions: "restart none none reset",
+    //     // start: "top center",
+    //   },
+    //   scale: 0.1,
+    //   y: 60,
+    //   // yoyo: true,
+    //   // repeat: -1,
+    //   ease: Power3.easeIn,
+    //   delay: 1,
+    //   duration: 1,
+    //   stagger: {
+    //     amount: 1,
+    //     grid: "auto",
+    //     from: "center",
+    //   },
+    // });
   }, []);
 
   return (
