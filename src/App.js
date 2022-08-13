@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <QuantumSoul />
       <About />
-      <VideoGallery />
+      {/* <VideoGallery /> */}
       <Mint />
     </div>
   );
