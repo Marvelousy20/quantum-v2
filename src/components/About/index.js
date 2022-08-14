@@ -1,6 +1,7 @@
 import { gsap, Power3 } from "gsap";
 import { useLayoutEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/all";
+import Vid from "../../asset/m.mp4"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,7 +52,8 @@ export default function About() {
       <section className="">
         <div>
           <video
-            src="https://res.cloudinary.com/dllbqpsrp/video/upload/v1659353586/slide_three_lyprdg.mp4"
+            // src="https://res.cloudinary.com/dllbqpsrp/video/upload/v1659353586/slide_three_lyprdg.mp4"
+            src={Vid}
             muted
             autoPlay
             playsInline

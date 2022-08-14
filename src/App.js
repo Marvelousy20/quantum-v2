@@ -6,6 +6,7 @@ import QuantumSoul from "./components/QuantumSouls";
 import VideoGallery from "./components/VideoGalary";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import FAQ from "./components/FAQ";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,8 +16,8 @@ function App() {
       <Hero />
       <QuantumSoul />
       <About />
-      {/* <VideoGallery /> */}
       <Mint />
+      <FAQ />
     </div>
   );
 }
