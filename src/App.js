@@ -21,6 +21,7 @@ function App() {
       <Hero />
       <QuantumSoul />
       <About />
+      <VideoGallery />
       <Mint />
       <FAQ />
     </div>
