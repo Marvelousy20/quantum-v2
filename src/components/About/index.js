@@ -1,7 +1,7 @@
 import { gsap, Power3 } from "gsap";
 import { useLayoutEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/all";
-import Vid from "../../asset/m.mp4"
+import Vid from "../../asset/m.mp4";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -65,22 +65,24 @@ export default function About() {
 
       <section className="">
         <h3
-          className="font-ibm font-bold text-3xl md:text-6xl mb-6 about text-left"
+          className="font-ibm font-bold text-2xl md:text-4xl mb-6 about text-left"
           ref={(el) => (aboutRef = el)}
         >
-          ABOUT US
+          ABOUT QTNM COMMUNITY
         </h3>
 
         <p
           className="text-regular font-ibm font-regular leading-8 text-left"
           ref={(el) => (contentRef = el)}
         >
-          Fernando Magalhães, aka MGXS, is a generative artist working with
-          procedural and generative systems. His mind is pretty active and
-          always seeking forms and shapes that inspire his imagination,
-          desiccate and decode them in his Mad Scientist Laboratory. Gnss is the
-          result of many years of research and development coming to a
-          conclusion and MGXS invites you to end this chapter together.
+          <span className="mb-3 md:mb-4 inline-block">Love, freedom, evolution, and community. These four are what bind us
+          together. </span> <span className="mb-3 md:mb-4 inline-block">We bring the missing piece into society. Receive the answers
+          to any mystical questions, and help yourself connect all the puzzles
+          in your soul. </span> <span> We are a community that encourages love, unity, and
+          evolution with rooted ethics backed by real universal laws and shared
+          cultural values. Join the community, take your spirituality to the
+          Metaverse by ascending to the higher dimensions and finding the ONE
+          within you.</span>
         </p>
       </section>
     </div>
