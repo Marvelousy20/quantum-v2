@@ -173,6 +173,8 @@ export default function VideoGallery() {
       className="py-8 md:py-20 lg:py-32 bg-[#F5F5F4] px-8 md:px-16 lg:px-40"
       ref={(el) => (backgroundRef = el)}
     >
+      <h1 className="text-center text-3xl md:text-6xl font-ibm font-bold mb-6 md:mb-10">Mint up to 5 Souls</h1>
+
       <div
         ref={(el) => (videoRef = el)}
         className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-12 w-full"

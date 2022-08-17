@@ -1,7 +1,7 @@
 import { gsap, Power3 } from "gsap";
 import { useLayoutEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/all";
-import Vid from "../../asset/m.mp4";
+import Vid from "../../asset/S-1.mp4";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,9 +78,9 @@ export default function About() {
           <span className="mb-3 md:mb-4 inline-block">Love, freedom, evolution, and community. These four are what bind us
           together. </span> <span className="mb-3 md:mb-4 inline-block">We bring the missing piece into society. Receive the answers
           to any mystical questions, and help yourself connect all the puzzles
-          in your soul. </span> <span> We are a community that encourages love, unity, and
+          in your soul. </span> <span className="mb-3 md:mb-4 inline-block"> We are a community that encourages love, unity, and
           evolution with rooted ethics backed by real universal laws and shared
-          cultural values. Join the community, take your spirituality to the
+          cultural values.</span> <span> Join the community, take your spirituality to the
           Metaverse by ascending to the higher dimensions and finding the ONE
           within you.</span>
         </p>

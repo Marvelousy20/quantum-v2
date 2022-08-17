@@ -66,33 +66,37 @@ export default function QuantumSoul() {
   return (
     <section
       ref={(el) => (contentRef = el)}
-      className="grid overflow-hidden grid-cols-1 gap-y-6 md:grid-cols-3 py-8 px-4 md:px-16 md:py-32 lg:px-24 gap-x-16 items-center text-white bg-[#151414]"
+      className="grid overflow-hidden grid-cols-1 gap-y-6 md:grid-cols-2 py-8 px-4 md:px-16 md:py-32 lg:px-36 gap-x-32 items-center text-white bg-[#151414]"
     >
       <div className="col-span-1">
         <p
-          className="font-ibm font-bold text-3xl md:text-5xl mb-6 text-start"
+          className="font-ibm font-bold text-2xl md:text-4xl mb-6 text-start"
           ref={(el) => (titleRef = el)}
         >
-          Quantum Souls
+          Digital Art Vision
         </p>
 
         <p
-          className="font-ibm font-medium leading-8 text-start max-w-[400px]"
+          className="font-ibm font-medium leading-8 text-start max-w-[450px]"
           ref={(el) => (textRef = el)}
         >
-          Quantum Souls is a generative collection on geometrical nodes containg
-          5550 pieces of digital animated souls stored on Ethereum Blockchain of
-          where each soul is unique and exclusive The goal is to generate
-          singular souls which instigate the imagination of the one who observes
-          them. Each person will have a different perception of each piece,
-          bringing up the imagination in its purest form. Using your own
-          perspectives and experiences, the beauty is to discover them and get
-          lost in ideas and thoughts, watching the countless possibilities of
-          what each one can mean to you.  
+          Quantum Souls is a generative collection of geometrical nodes
+          containing 5550 pieces of digital animated souls stored on Ethereum
+          Blockchain where each soul is unique and exclusive. The goal is to
+          generate singular souls which instigate the imagination of the one who
+          observes them. Each person will have a particular perception on each
+          piece, bringing up the imagination in its purest form. Using your own
+          visions and experiences, the beauty is to discover them and get lost
+          in ideas and thoughts, watching the countless possibilities of what
+          each and every one can mean to you.
         </p>
       </div>
 
-      <div className="col-span-2" ref={(el) => (videoRef = el)}>
+      <div
+        className="col-span-1 bg-[#121212]"
+        ref={(el) => (videoRef = el)}
+        style={{ border: "10px solid #121212" }}
+      >
         <video
           src="https://res.cloudinary.com/dllbqpsrp/video/upload/v1659350983/Untitled_design_kfshga.mp4"
           // src={Canva}
@@ -100,10 +104,12 @@ export default function QuantumSoul() {
           muted
           autoPlay
           playsInline
-          className=" h-full md:h-[700px] object-cover"
-          width="100%"
+          className=" h-full md:h-[600px] object-cover"
+          // width="100%"
         ></video>
       </div>
     </section>
   );
 }
+
+// md:h-[700px]
