@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import { gsap, Power3 } from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import Canva from "../../asset/canva.mp4";
+import Aa from "../../asset/aa.mp4";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -66,7 +66,8 @@ export default function QuantumSoul() {
   return (
     <section
       ref={(el) => (contentRef = el)}
-      className="grid overflow-hidden grid-cols-1 gap-y-6 md:grid-cols-2 py-8 px-4 md:px-16 md:py-32 lg:px-36 gap-x-32 items-center text-white bg-[#151414]"
+      // className="grid overflow-hidden grid-cols-1 gap-y-6 md:grid-cols-2 py-8 px-4 md:px-16 md:py-32 lg:px-36 gap-x-32 items-center text-white bg-[#151414]"
+      className="flex flex-col md:flex-row overflow-hidden justify-between gap-y-6 py-8 px-4 md:px-16 md:py-32 lg:px-40 gap-x-32 items-center text-white bg-[#151414]"
     >
       <div className="col-span-1">
         <p
@@ -93,19 +94,21 @@ export default function QuantumSoul() {
       </div>
 
       <div
-        className="col-span-1 bg-[#121212]"
+        className=""
         ref={(el) => (videoRef = el)}
-        style={{ border: "10px solid #121212" }}
+        // style={{ border: "10px solid #121212" }}
       >
         <video
-          src="https://res.cloudinary.com/dllbqpsrp/video/upload/v1659350983/Untitled_design_kfshga.mp4"
+          // src="https://res.cloudinary.com/dllbqpsrp/video/upload/v1659350983/Untitled_design_kfshga.mp4"
           // src={Canva}
+          src = {Aa}
           loop
           muted
           autoPlay
           playsInline
-          className=" h-full md:h-[600px] object-cover"
+          // className=" h-full md:h-[600px] object-cover"
           // width="100%"
+          className = "object-cover"
         ></video>
       </div>
     </section>
