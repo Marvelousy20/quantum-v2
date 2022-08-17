@@ -127,8 +127,8 @@ export default function VideoGallery() {
         toggleActions: "restart none none reset",
         end: "bottom 20%",
       },
-      backgroundColor: "#151414",
-      color: "white",
+      // backgroundColor: "#151414",
+      // color: "white",
       delay: 3,
       duration: 1,
       ease: Power3.easeOut,
@@ -170,10 +170,10 @@ export default function VideoGallery() {
 
   return (
     <div
-      className="py-8 md:py-20 lg:py-32 bg-[#F5F5F4] px-8 md:px-16 lg:px-40"
+      className="py-8 md:py-20 lg:py-16 bg-[#151414] px-8 md:px-16 lg:px-40 text-white"
       ref={(el) => (backgroundRef = el)}
     >
-      <h1 className="text-center text-3xl md:text-6xl font-ibm font-bold mb-6 md:mb-10">Mint up to 5 Souls</h1>
+      <h1 className="text-center text-3xl md:text-6xl font-ibm font-bold mb-10 md:mb-20">Mint up to 5 Souls</h1>
 
       <div
         ref={(el) => (videoRef = el)}
